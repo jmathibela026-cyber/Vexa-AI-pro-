@@ -1,14 +1,33 @@
 {
+  "id": "./",
   "name": "Vexa A.I Pro",
   "short_name": "Vexa",
-  "start_url": "./index.html",
+  "description": "Vexa A.I Pro",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#050514",
   "theme_color": "#050514",
+  "lang": "en",
   "icons": [
-    {"src": "images/icon-192.png", "sizes": "192x192", "type": "image/png"},
-    {"src": "images/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+    {
+      "src": "images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }
